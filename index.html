@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+
+            $("#btn").click(function() {
+                $("#content").html("<h3>Welcome to jQuery world....</h3>");
+            });
+            $("p").hover(function() {
+                $(this).css("background-color", "yellow");
+            });
+
+            $("p").mouseleave(function() {
+                $(this).css("background-color", "white");
+            });
+
+            size = 16;
+
+            $("#plus").click(function() {
+                $("body").css("font-size", size++);
+            });
+
+            $("#minus").click(function() {
+                $("body").css("font-size", size--);
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <button id="btn">Click</button>
+    <div id="content"></div>
+    <button id="plus"> + </button>
+    <button id="minus"> - </button>
+
+    <p>
+        Lose john poor same it case do year we. Full how way even the sigh. Extremely nor furniture fat questions now provision incommode preserved. Our side fail find like now. Discovered travelling for insensible partiality unpleasing impossible she. Sudden up my excuse to suffer ladies though or. Bachelor possible marianne directly confined relation as on he.
+    </p>
+
+
+    <p>
+        Lose john poor same it case do year we. Full how way even the sigh. Extremely nor furniture fat questions now provision incommode preserved. Our side fail find like now. Discovered travelling for insensible partiality unpleasing impossible she. Sudden up my excuse to suffer ladies though or. Bachelor possible marianne directly confined relation as on he.
+    </p>
+    <p>
+        Lose john poor same it case do year we. Full how way even the sigh. Extremely nor furniture fat questions now provision incommode preserved. Our side fail find like now. Discovered travelling for insensible partiality unpleasing impossible she. Sudden up my excuse to suffer ladies though or. Bachelor possible marianne directly confined relation as on he.
+    </p>
+    <p>
+        Lose john poor same it case do year we. Full how way even the sigh. Extremely nor furniture fat questions now provision incommode preserved. Our side fail find like now. Discovered travelling for insensible partiality unpleasing impossible she. Sudden up my excuse to suffer ladies though or. Bachelor possible marianne directly confined relation as on he.
+    </p>
+</body>
+</html>

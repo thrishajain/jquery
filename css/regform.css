@@ -1,0 +1,16 @@
+label{
+    width:120px;
+    float:left;
+    
+}
+.star{
+    color: red;
+}
+label.error{
+    float: none;
+    color: red;
+    padding-left:20px; 
+}
+.inpreg{
+    width:173px;
+}
